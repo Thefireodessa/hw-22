@@ -1,0 +1,47 @@
+header {
+  font-family: $font-family_poppins;
+  font-size: $font-size-header;
+  .container {
+    @include container-standart;
+    padding-top: 20px;
+    flex-direction: column;
+
+    .navigation {
+      display: flex;
+      justify-content: space-between;
+
+      .right_top {
+        display: flex;
+        gap: $right_top_gap;
+
+        .home {
+          padding-top: 5px;
+
+          a {
+            text-decoration: none;
+            color: black;
+          }
+        }
+
+        .terms {
+          padding-top: 5px;
+
+          a {
+            text-decoration: none;
+            color: black;
+          }
+        }
+
+        input {
+          color: $right_top_color;
+          background-color: $right_top_button_color;
+          border-radius: 9px;
+          width: $right_top_button_width;
+          height: $right_top_button_height;
+          cursor: pointer;
+          border: none;
+        }
+      }
+    }
+  }
+}

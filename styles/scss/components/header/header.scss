@@ -1,0 +1,103 @@
+.top {
+  font-family: $font-family_poppins;
+  background-image: url(../../assets/pictures/ground.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: $top-height;
+  font-size: $font-size-header;
+
+  .container {
+    @include container-standart;
+    padding-top: 20px;
+    flex-direction: column;
+    .top__navigation {
+      display: flex;
+      justify-content: space-between;
+
+      .right_top {
+        display: flex;
+        gap: $right_top_gap;
+
+        .home {
+          padding-top: 5px;
+
+          a {
+            text-decoration: none;
+            color: $right_top_color;
+          }
+        }
+
+        .terms {
+          padding-top: 5px;
+
+          a {
+            text-decoration: none;
+            color: $right_top_color;
+          }
+        }
+
+        input {
+          color: $right_top_color;
+          background-color: $right_top_button_color;
+          border-radius: 9px;
+          width: $right_top_button_width;
+          height: $right_top_button_height;
+          cursor: pointer;
+          border: none;
+        }
+      }
+    }
+  }
+
+  .top__center {
+    display: flex;
+    flex-wrap: wrap;
+
+    .top__center__info {
+      padding-top: $top_info_padding_top;
+
+      padding-bottom: $top_info_padding_bottom;
+      color: $right_top_color;
+      width: 100%;
+
+      h1 {
+        font-size: 70px;
+      }
+    }
+
+    .top__center__rest1 {
+
+      padding-bottom: $rest1_padding_bottom;
+      width: 100%;
+
+      input {
+        color: $right_top_color;
+        background-color: $right_top_button_color;
+        border-radius: 3px 15px 3px 15px;
+        width: 250px;
+        height: 50px;
+        cursor: pointer;
+        border: none;
+      }
+    }
+
+    .top__center__accept {
+
+      width: 100%;
+      display: flex;
+
+      .accept__agree {
+        color: $right_top_color;
+        margin-left: 10px;
+        width: 30%;
+        font-size: $font-size-agree;
+
+        a {
+          color: $right_top_button_color;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

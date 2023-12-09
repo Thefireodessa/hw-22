@@ -1,0 +1,92 @@
+.section-first {
+  .container {
+    @include container-standart;
+    gap: 50px;
+
+    .section-first__left-part {
+      width: 40%;
+
+      .left-part__header {
+        color: black;
+        padding-bottom: 40px;
+
+        h2 {
+          font-size: 45px;
+        }
+      }
+
+      .left-part__text {
+        font-size: $font-size-section1;
+        padding-bottom: 20px;
+      }
+
+      p {
+        font-size: $font-size-section1;
+
+        a {
+          text-decoration: none;
+          color: $right_top_button_color;
+        }
+      }
+    }
+
+    .right-part {
+      .right-part2 {
+        padding-top: 25px;
+      }
+
+      .right-part3 {
+        display: flex;
+        padding-bottom: 5px;
+        padding-top: 25px;
+
+        .rp3-number {
+          width: 25%;
+        }
+
+        .rp3-text {
+          padding-left: 15px;
+        }
+      }
+
+      .right-part4 {
+        display: flex;
+        padding-bottom: 5px;
+
+        .rp4-number {
+          width: 25%;
+        }
+
+        .rp4-text {
+          padding-left: 15px;
+        }
+      }
+
+      .right-part5 {
+        display: flex;
+        padding-bottom: 15px;
+
+        .rp5-number {
+          width: 25%;
+        }
+
+        .rp5-text {
+          padding-left: 15px;
+        }
+      }
+
+      .right-part6 {
+        display: flex;
+        padding-bottom: 15px;
+
+        .rp6-number {
+          width: 25%;
+        }
+
+        .rp6-text {
+          padding-left: 15px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+@mixin container-standart {
+  font-family: $font-family_poppins;
+  max-width: $container-max-width;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  padding-top: $footer-padding-top;
+  padding-bottom: $footer-padding-bottom;
+}

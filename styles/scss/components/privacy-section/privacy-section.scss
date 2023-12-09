@@ -1,0 +1,31 @@
+  .information {
+    .container {
+      @include container-standart;
+      font-family: $font-family_poppins;
+      font-size: $font-size-header;
+      flex-direction: column;
+      gap: 80px;
+      padding-top: 50px;
+      .information__header {
+        font-size: 50px;
+      }
+      .information__first-part {
+        .first-part__head {
+          padding-bottom: 30px;
+          font-size: 25px;
+        }
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .information__second-part {
+        .second-part__head {
+          padding-bottom: 30px;
+          font-size: 25px;
+        }
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+  }

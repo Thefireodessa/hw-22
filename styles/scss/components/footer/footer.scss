@@ -1,7 +1,6 @@
 footer {
   background-color: $footer-color;
   .container {
-    @include container-standart;
     .footer_left {
       width: 50%;
       color: $footer-text-color;

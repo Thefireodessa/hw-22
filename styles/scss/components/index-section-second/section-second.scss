@@ -2,7 +2,6 @@
   background-color: $background-color-section-second;
 
   .container {
-    @include container-standart;
     gap: 50px;
     flex-wrap: wrap;
 

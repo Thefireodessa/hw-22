@@ -1,5 +1,4 @@
 .top {
-  font-family: $font-family_poppins;
   background-image: url(../../assets/pictures/ground.png);
   background-size: cover;
   background-position: center;
@@ -8,7 +7,6 @@
   font-size: $font-size-header;
 
   .container {
-    @include container-standart;
     padding-top: 20px;
     flex-direction: column;
     .top__navigation {
@@ -23,7 +21,7 @@
           padding-top: 5px;
 
           a {
-            text-decoration: none;
+
             color: $right_top_color;
           }
         }
@@ -32,7 +30,6 @@
           padding-top: 5px;
 
           a {
-            text-decoration: none;
             color: $right_top_color;
           }
         }
@@ -56,18 +53,12 @@
 
     .top__center__info {
       padding-top: $top_info_padding_top;
-
       padding-bottom: $top_info_padding_bottom;
       color: $right_top_color;
       width: 100%;
-
-      h1 {
-        font-size: 70px;
-      }
     }
 
     .top__center__rest1 {
-
       padding-bottom: $rest1_padding_bottom;
       width: 100%;
 
@@ -95,7 +86,6 @@
 
         a {
           color: $right_top_button_color;
-          text-decoration: none;
         }
       }
     }

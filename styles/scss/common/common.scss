@@ -1,0 +1,17 @@
+@import "mixins";
+
+body {
+  font-family: $font-family_poppins;
+}
+
+.container {
+  @include container-standart;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 70px;
+}

@@ -1,6 +1,5 @@
   .information {
     .container {
-      @include container-standart;
       font-family: $font-family_poppins;
       font-size: $font-size-header;
       flex-direction: column;
